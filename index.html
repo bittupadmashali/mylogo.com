@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+       
+    <style>
+        
+        *{
+            margin:0;
+            padding: 0;
+            font-family: 'Raleway', sans-serif;
+              box-sizing: border-box;
+        }
+        nav{
+            
+            background-color:#073b4c;
+            height:80px;
+            border-radius: 12px;
+            width:100%;
+        }
+    
+label{
+    line-height: 80px;
+    font-size: 45px;
+    color: white;
+    padding:60px;
+}
+        
+        ul{
+            float: right;
+            margin-right:20px;
+            
+            
+        
+            
+        }
+        li{
+            display: inline-block;
+            line-height: 80px;
+            margin:0 5px;
+
+            
+            
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+            
+
+            margin:20px;
+            
+        }
+        body{
+            padding:0;
+            margin:0;
+            font-family: 'Raleway', sans-serif;
+            background-color: #42858C;
+        }
+        div{
+          height:400px;
+          width:600px;
+       background-color: #073b4c;
+       border-radius: 12px;
+       color: white;
+       position:absolute;
+       top:50%;
+       left:50%;
+       transform:translate(-50%,-50%);
+
+        }
+
+        #magic{
+            position: absolute;
+            padding-top:50px;
+            padding-left: 45px;
+            font-size:55px;
+        }
+       span{
+            position: absolute;
+            margin-top:170px;
+            margin-left:200px;
+            font-size:23px;
+        }
+        input[type=text]
+        {
+            border-radius: 12px;
+            height:35px;
+            width:200px;
+            border:none;
+            margin-left:8px;
+            transition:all 0.9 linear 0.9;
+            outline: none;
+
+           
+        }
+        input[type=text]:hover
+        {
+            height:45px;
+            width:230px;
+            outline:none;
+            
+               
+        }
+    
+        input[type=password]
+        {
+            border-radius: 12px;
+            height:35px;
+            width:200px;
+            border:none;
+            margin-left:21.5px;
+            transition: all 0.5 linear 0.9;
+            outline: none;
+
+
+        }
+        input[type=password]:hover
+        {
+            height:45px;
+            width:230px;
+            border:none;
+            outline: none;
+        }
+      input[type=submit]{
+          background-image:linear-gradient();
+          margin-top:290px;
+          margin-left:200px;
+          height:40px;
+          width:120px;
+          border-radius:12px;
+          border: none;
+          font-size:18px;
+          background-color: #00008B;
+          text-align: center;
+          color:white;
+          text-align: center;
+          font-family: 'Raleway', sans-serif;
+          transition:0.5; 
+          font-size: 22px;       
+      }
+  input[type=submit]:hover{
+    background-position: right center;
+    color: white;
+    border:none;
+    padding:3px;
+    
+
+  }
+
+      input[type=reset]
+      {
+        height:40px;
+          width:120px;
+          border-radius:12px;
+          border: none;
+          font-size:18px;
+          background-color: #ef233c;
+          text-align: center;
+          color:white;
+          margin-left:10px;
+          text-align: center;
+          font-family: 'Raleway', sans-serif;  
+          font-size: 22px;       
+      
+
+        
+      }
+      .error{
+          color: rgba(255, 0, 0, 0.842);
+          font-size: 16px;
+      }
+      #msg1{
+          margin-left:120px;
+          font-weight: bolder;
+      }
+     </style>
+   </head>
+<body bgcolor="#52b69a">
+    <nav>
+        <label for="">shareit</label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">protfolio</a></li>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign in</a></li>
+        </ul>
+    </nav> <div class="center">
+        
+        <label id="magic" for="">Log in</label>
+     <span>Username <input type="text" name="" id="first"></span><br><br><br>
+     <span id="msg1" class="error"></span>
+      <span>Password<input type="password" name="" id="second"></span>
+      <span id="msg2" class="error"></span>
+     <input type="submit" value="submit" onclick="world();">
+     <input type="reset" value="reset" class="btn-grad">
+
+    </div>
+   
+
+    
+</body>
+</html>
